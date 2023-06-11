@@ -1,13 +1,13 @@
 # The qr code generator tool for my marketing team
 
-## Features
+## 1. Features
 
 > <ul>
 >  <li>Generate QR CODE</li>
 >  <li>Change logo in the QR CODE</li>
 > </ul>
 
-## Libraries
+## 2. Libraries
 
 > <ul>
 >  <li><a href="https://react-bootstrap.github.io/">Boostrap React Component</a></li>
