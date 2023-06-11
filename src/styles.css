@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  }
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.qr-code canvas {
+  max-width: 300px;
+  margin-bottom: 100px;
+  
+}
+
+.brandLogo--list {
+  min-height: 160px;
+  
+}
+
+.brandLogo--item {
+  min-height: 160px;
+}
+
+@media screen  and (max-width: 576px) {
+.qr-code canvas {
+  max-width: 100%;
+}
+}
