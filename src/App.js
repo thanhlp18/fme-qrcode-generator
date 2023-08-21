@@ -22,7 +22,7 @@ const qrCode = new QRCodeStyling({
   },
   imageOptions: {
     crossOrigin: "anonymous",
-    margin: 10,
+    margin: 20,
   },
 });
 
@@ -145,6 +145,8 @@ export default function App() {
                 <option value="fmeEdu">FME EDU</option>
                 <option value="fmeTravel">FME TRAVEL</option>
                 <option value="tec">TEC</option>
+                <option value="tiktok">Tiktok</option>
+                <option value="facebook">Facebook</option>
               </Form.Select>
             </Form.Group>
           </Col>
@@ -164,7 +166,7 @@ export default function App() {
                     className="p-2 cursor-pointer"
                     htmlFor={`logo${index + 1}`}
                   >
-                    <Image src={`${Url}`} width="50%" rounded />
+                    <Image src={`${Url}`} width="40%" rounded />
                   </Form.Label>
 
                   <Form.Check

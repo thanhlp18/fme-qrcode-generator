@@ -16,7 +16,7 @@
   
 }
 
-.brandLogo--list {
+.brandLogo--list:has(div) {
   min-height: 160px;
   
 }
