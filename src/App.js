@@ -134,7 +134,7 @@ export default function App() {
               controlId="exampleForm.ControlInput1"
               className="d-flex align-items-center justify-items-center"
             >
-              <Form.Label className="mb-0 mx-2">Brand</Form.Label>
+              <Form.Label className="mb-0 mx-2">QR Image</Form.Label>
 
               <Form.Select
                 aria-label="Default select example"
@@ -147,6 +147,7 @@ export default function App() {
                 <option value="tec">TEC</option>
                 <option value="tiktok">Tiktok</option>
                 <option value="facebook">Facebook</option>
+                <option value="scanMe">Scan me</option>
               </Form.Select>
             </Form.Group>
           </Col>
